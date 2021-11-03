@@ -1,0 +1,50 @@
+
+GET http://localhost:3000/food
+###
+POST http://localhost:3000/food HTTP/1.1
+Content-Type: application/json
+
+{
+  "name":"1212",
+  "calories":"1",
+  "original_place":"3"
+}
+###
+PUT http://localhost:3000/food/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name":"منسف",
+  "calories":"طبخات",
+  "original_place":"اردن"
+}
+###
+DELETE http://localhost:3000/food/1 HTTP/1.1
+###
+GET http://localhost:3000/food/1 HTTP/1.1
+###
+GET http://localhost:3000/clothes
+###
+POST http://localhost:3000/clothes HTTP/1.1
+Content-Type: application/json
+
+{
+"type_name":"jinz",
+"color":"jinz",
+"size":"jinz",
+"brand":"jinz"
+}
+###
+PUT http://localhost:3000/clothes/3 HTTP/1.1
+Content-Type: application/json
+
+{
+"type_name":"jinz",
+"color":"black",
+"size":"36",
+"brand":"LCwakiki"
+}
+###
+DELETE http://localhost:3000/clothes/1 HTTP/1.1
+###
+GET http://localhost:3000/clothes/3 HTTP/1.1

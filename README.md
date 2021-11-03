@@ -1,11 +1,11 @@
-# basic-api-server
+# api-server
 
 ## Links
 
-- heroku: [jallad-basic-express-server](https://jallad-basic-api-server.herokuapp.com/)
-- github repo: [basic-express-server](https://github.com/Ahmadjlallad/basic-api-server)
-- latest PR: [PR](https://github.com/Ahmadjlallad/basic-api-server/pull/1)
-- Github actions: [actions](https://github.com/Ahmadjlallad/basic-api-server/actions)
+- heroku: [jallad-basic-express-server](https://jallad-api-server.herokuapp.com/)
+- github repo: [basic-express-server](https://github.com/Ahmadjlallad/api-server)
+- latest PR: [PR](https://github.com/Ahmadjlallad/api-server/pull/1)
+- Github actions: [actions](https://github.com/Ahmadjlallad/api-server/actions)
 
 ## express with basic routes and unit testing
 
